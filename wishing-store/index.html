@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Wishing Store</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- Website icon -->
+    <link rel="shortcut icon" href="./assets/icon/icon1.png" type="image/x-icon">
+    <!-- fontawesome icons -->
+    <link rel="stylesheet" href="./assets/libs/fontawesome/all.min.css">
+    <link rel="stylesheet" href="./assets/libs/fontawesome/fontawesome.min.css">
+    <!---------------------->
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/style.css'>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+<section id="header">
+    <!----------------- Header Section --------------->
+    <div class="container">
+        <header class="nav-bar">
+            <img src="./assets/images/logo.jpg" alt="Wishing Store Logo">
+            <nav class="nav-part1">
+                <ul id="drop-down-content">
+                    <li  class="row1">ARTS & CRAFTS<i class="fa-solid fa-angle-right"></i>
+                        <div id="dd-content-submenu">
+                            <div>
+                                <p class="row1" onclick="openConntent('new-arrivals')"><a href="#">New Arrivals</a><i  class="fa-solid fa-angle-right"></i></p>
+                                <ul id="new-arrivals">
+                                    <li><a href="#">Dressess</a></li>
+                                    <li><a href="#">Jackets</a></li>
+                                    <li><a href="#">Hoodies & Sweatshirts</a></li>
+                                    <li><a href="#">Sweaters</a></li>
+                                    <li><a href="#">Tops & Tees</a></li>
+                                    <li><a href="#">Party Dressess</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <p class="row1" onclick="openConntent('trending')"><a href="#">Trending</a><i class="fa-solid fa-angle-right"></i></p>
+                                <ul id="trending">
+                                    <li><a href="#">Dressess</a></li>
+                                    <li><a href="#">Jackets</a></li>
+                                    <li><a href="#">Hoodies & Sweatshirts</a></li>
+                                    <li><a href="#">Sweaters</a></li>
+                                    <li><a href="#">Tops & Tees</a></li>
+                                    <li><a href="#">Party Dressess</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="row1">FASHION<i class="fa-solid fa-angle-right"></i>
+                        <div id="dd-content-submenu">
+                            <div>
+                                <p class="row1" onclick="openConntent('new-arrivals1')"><a href="#">New Arrivals</a><i class="fa-solid fa-angle-right"></i></p>
+                                <ul id="new-arrivals1">
+                                    <li><a href="#">Dressess</a></li>
+                                    <li><a href="#">Jackets</a></li>
+                                    <li><a href="#">Hoodies & Sweatshirts</a></li>
+                                    <li><a href="#">Sweaters</a></li>
+                                    <li><a href="#">Tops & Tees</a></li>
+                                    <li><a href="#">Party Dressess</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <p class="row1" onclick="openConntent('trending1')"><a href="#">Trending</a><i  class="fa-solid fa-angle-right"></i></p>
+                                <ul id="trending1">
+                                    <li><a href="#">Dressess</a></li>
+                                    <li><a href="#">Jackets</a></li>
+                                    <li><a href="#">Hoodies & Sweatshirts</a></li>
+                                    <li><a href="#">Sweaters</a></li>
+                                    <li><a href="#">Tops & Tees</a></li>
+                                    <li><a href="#">Party Dressess</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="row1">HEALTH & HOUSEHOLD<i class="fa-solid fa-angle-right"></i>
+                        <div id="dd-content-submenu">
+                            <div>
+                                <p class="row1" onclick="openConntent('new-arrivals2')"><a href="#">New Arrivals</a><i  class="fa-solid fa-angle-right"></i></p>
+                                <ul id="new-arrivals2">
+                                    <li><a href="#">Dressess</a></li>
+                                    <li><a href="#">Jackets</a></li>
+                                    <li><a href="#">Hoodies & Sweatshirts</a></li>
+                                    <li><a href="#">Sweaters</a></li>
+                                    <li><a href="#">Tops & Tees</a></li>
+                                    <li><a href="#">Party Dressess</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <p class="row1" onclick="openConntent('trending2')"><a href="#">Trending</a><i  class="fa-solid fa-angle-right"></i></p>
+                                <ul id="trending2">
+                                    <li><a href="#">Dressess</a></li>
+                                    <li><a href="#">Jackets</a></li>
+                                    <li><a href="#">Hoodies & Sweatshirts</a></li>
+                                    <li><a href="#">Sweaters</a></li>
+                                    <li><a href="#">Tops & Tees</a></li>
+                                    <li><a href="#">Party Dressess</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="row1">BAGES & SHOES<i class="fa-solid fa-angle-right"></i>
+                        <div id="dd-content-submenu">
+                            <div>
+                                <p class="row1" onclick="openConntent('new-arrivals3')"><a href="#">New Arrivals</a><i  class="fa-solid fa-angle-right"></i></p>
+                                <ul id="new-arrivals3">
+                                    <li><a href="#">Dressess</a></li>
+                                    <li><a href="#">Jackets</a></li>
+                                    <li><a href="#">Hoodies & Sweatshirts</a></li>
+                                    <li><a href="#">Sweaters</a></li>
+                                    <li><a href="#">Tops & Tees</a></li>
+                                    <li><a href="#">Party Dressess</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <p class="row1" onclick="openConntent('trending3')"><a href="#">Trending</a><i  class="fa-solid fa-angle-right"></i></p>
+                                <ul id="trending3">
+                                    <li><a href="#">Dressess</a></li>
+                                    <li><a href="#">Jackets</a></li>
+                                    <li><a href="#">Hoodies & Sweatshirts</a></li>
+                                    <li><a href="#">Sweaters</a></li>
+                                    <li><a href="#">Tops & Tees</a></li>
+                                    <li><a href="#">Party Dressess</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="row1">JEWELLARY & WATCHES<i class="fa-solid fa-angle-right"></i>
+                        <div id="dd-content-submenu">
+                            <div>
+                                <p class="row1" onclick="openConntent('new-arrivals4')"><a href="#">New Arrivals</a><i  class="fa-solid fa-angle-right"></i></p>
+                                <ul id="new-arrivals4">
+                                    <li><a href="#">Dressess</a></li>
+                                    <li><a href="#">Jackets</a></li>
+                                    <li><a href="#">Hoodies & Sweatshirts</a></li>
+                                    <li><a href="#">Sweaters</a></li>
+                                    <li><a href="#">Tops & Tees</a></li>
+                                    <li><a href="#">Party Dressess</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <p class="row1" onclick="openConntent('trending4')"><a href="#">Trending</a><i  class="fa-solid fa-angle-right"></i></p>
+                                <ul id="trending4">
+                                    <li><a href="#">Dressess</a></li>
+                                    <li><a href="#">Jackets</a></li>
+                                    <li><a href="#">Hoodies & Sweatshirts</a></li>
+                                    <li><a href="#">Sweaters</a></li>
+                                    <li><a href="#">Tops & Tees</a></li>
+                                    <li><a href="#">Party Dressess</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="row1">BEAUTY & HEALTH<i class="fa-solid fa-angle-right"></i>
+                        <div id="dd-content-submenu">
+                            <div>
+                                <p class="row1" onclick="openConntent('new-arrivals5')"><a href="#">New Arrivals</a><i  class="fa-solid fa-angle-right"></i></p>
+                                <ul id="new-arrivals5">
+                                    <li><a href="#">Dressess</a></li>
+                                    <li><a href="#">Jackets</a></li>
+                                    <li><a href="#">Hoodies & Sweatshirts</a></li>
+                                    <li><a href="#">Sweaters</a></li>
+                                    <li><a href="#">Tops & Tees</a></li>
+                                    <li><a href="#">Party Dressess</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <p class="row1" onclick="openConntent('trending5')"><a href="#">Trending</a><i  class="fa-solid fa-angle-right"></i></p>
+                                <ul id="trending5">
+                                    <li><a href="#">Dressess</a></li>
+                                    <li><a href="#">Jackets</a></li>
+                                    <li><a href="#">Hoodies & Sweatshirts</a></li>
+                                    <li><a href="#">Sweaters</a></li>
+                                    <li><a href="#">Tops & Tees</a></li>
+                                    <li><a href="#">Party Dressess</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="row1">ELECTRONICS<i class="fa-solid fa-angle-right"></i>
+                        <div id="dd-content-submenu">
+                            <div>
+                                <p class="row1" onclick="openConntent('new-arrivals6')"><a href="#">New Arrivals</a><i  class="fa-solid fa-angle-right"></i></p>
+                                <ul id="new-arrivals6">
+                                    <li><a href="#">Dressess</a></li>
+                                    <li><a href="#">Jackets</a></li>
+                                    <li><a href="#">Hoodies & Sweatshirts</a></li>
+                                    <li><a href="#">Sweaters</a></li>
+                                    <li><a href="#">Tops & Tees</a></li>
+                                    <li><a href="#">Party Dressess</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <p class="row1" onclick="openConntent('trending6')"><a href="#">Trending</a><i  class="fa-solid fa-angle-right"></i></p>
+                                <ul id="trending6">
+                                    <li><a href="#">Dressess</a></li>
+                                    <li><a href="#">Jackets</a></li>
+                                    <li><a href="#">Hoodies & Sweatshirts</a></li>
+                                    <li><a href="#">Sweaters</a></li>
+                                    <li><a href="#">Tops & Tees</a></li>
+                                    <li><a href="#">Party Dressess</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="row1">HOME & GARDENS<i class="fa-solid fa-angle-right"></i>
+                        <div id="dd-content-submenu">
+                            <div>
+                                <p class="row1" onclick="openConntent('new-arrivals7')"><a href="#">New Arrivals</a><i  class="fa-solid fa-angle-right"></i></p>
+                                <ul id="new-arrivals7">
+                                    <li><a href="#">Dressess</a></li>
+                                    <li><a href="#">Jackets</a></li>
+                                    <li><a href="#">Hoodies & Sweatshirts</a></li>
+                                    <li><a href="#">Sweaters</a></li>
+                                    <li><a href="#">Tops & Tees</a></li>
+                                    <li><a href="#">Party Dressess</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <p class="row1" onclick="openConntent('trending7')"><a href="#">Trending</a><i  class="fa-solid fa-angle-right"></i></p>
+                                <ul id="trending7">
+                                    <li><a href="#">Dressess</a></li>
+                                    <li><a href="#">Jackets</a></li>
+                                    <li><a href="#">Hoodies & Sweatshirts</a></li>
+                                    <li><a href="#">Sweaters</a></li>
+                                    <li><a href="#">Tops & Tees</a></li>
+                                    <li><a href="#">Party Dressess</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <i class="fa-solid fa-xmark" id="closemenu" onclick="closeDropDown()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" id="openmenu" onclick="openDropDown()"></i> 
+            </nav>
+            <nav class="nav-part2">
+                <select name="menu" id="menu">
+                    <option value="">All</option>
+                    <option value="">option 1</option>
+                    <option value="">option 2</option>
+                    <option value="">option 3</option>
+                    <option value="">option 4</option>
+                    <option value="">option 5</option>
+                </select>
+                <input type="search" name="searchitems" id="searchitems"><i class="fa-solid fa-magnifying-glass"></i>
+            </nav>
+            <nav class="nav-part3 row1">
+                <ul id="profile-drop-down">
+                    <li><i class="fa-solid fa-user"></i> My Profile</li>
+                    <li><i class="fa-solid fa-gear"></i>Settings</li>
+                    <li><i class="fa-solid fa-bell"></i>Notifications</li>
+                    <li><i class="fa-solid fa-right-from-bracket"></i>Logout</li>
+                </ul>
+                <i class="fa-solid fa-user" id="user" onclick="dropDownProfile()"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </nav>
+        </header>
+    </div>
+</section>
+<!-------------------------- Slide-Banner -------------------------->
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" >
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item " data-bs-interval="2000">
+        <img src="./assets/images/banner-1.jpg" class="d-block w-100" alt="slide-banner-image1">
+        <div class="carousel-caption d-none d-md-block">
+            <p>Effortlessly cool, for the traditionalists of today</p>
+            <a href="#">Explore collection</a>
+        </div>
+      </div>
+      <div class="carousel-item " data-bs-interval="2000">
+        <img src="./assets/images/banner-2.jpg" class="d-block w-100" alt="slide-banner-image2">
+        <div class="carousel-caption d-none d-md-block">
+            <p>Effortlessly cool, for the traditionalists of today</p>
+            <a href="#">Explore collection</a>
+        </div>
+      </div>
+      <div class="carousel-item active" data-bs-interval="2000">
+        <img src="./assets/images/banner-3.jpg" class="d-block w-100" alt="slide-banner-image3">
+        <div class="carousel-caption d-none d-md-block">
+          <p>Effortlessly cool, for the traditionalists of today</p>
+          <a href="#">Explore collection</a>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!----------------------------- Details ---------------------------->
+<section id="details">
+    <div class="details-card">
+        <div class="detail-inner-card">
+            <i class="fa-solid fa-truck-fast"></i>
+            <h5>Two-hour delivery</h5>
+            <p>Available in most metros on selected in-stock products</p>
+            <a href="#">learn more</a>
+        </div>
+        <div class="detail-inner-card">
+            <i class="fa-solid fa-message"><i class="fa-solid fa-grip-lines"></i></i>
+            <h5>Get help buying</h5>
+            <p>Have a question? call a Specialist or chat online for help</p>
+            <a href="#">contact us</a>
+        </div>
+        <div class="detail-inner-card">
+            <i class="fa-solid fa-ticket-simple"><i class="fa-solid fa-percent"></i></i>
+            <h5>Find the card for you</h5>
+            <p>Get 3% Daily cash with special finacning offers from us</p>
+            <a href="#">learn more</a>
+        </div>
+    </div>
+</section>
+<!-- ----------------------- Products-1 ---------------------------->
+<section id="product-list-1">
+    <div class="container">
+        <div class="product-1-watch">
+            <div class="watch-card">
+                <img src="./assets/images/product-1.jpg" alt="Product-1 Watch">
+                <div class="product-1-details">
+                    <h5>Metro 38 Data</h5>
+                    <p>Reference 1102</p>
+                    <a href="#"><i class="fa-solid fa-cart-arrow-down"> <i class="fa-solid fa-dollar-sign"> 366</i></i></a>
+                </div>
+            </div>
+            <div class="watch-card">
+                <img src="./assets/images/product-1.jpg" alt="Product-1 Watch">
+                <div class="product-1-details">
+                    <h5>Metro 38 Data</h5>
+                    <p>Reference 1102</p>
+                    <a href="#"><i class="fa-solid fa-cart-arrow-down"> <i class="fa-solid fa-dollar-sign"> 366</i></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!---------------------------content 2------------------------------>
+<section id="content">
+    <div class="content-2">
+        <img src="./assets/images/content-2.jpg" alt="VR-Box">
+        <div class="content-2-details">
+            <h5>all-in-one vr</h5>
+            <h4>Always ready when you are</h4>
+            <p>Oculus Go in our all-in-one VR headset that's portable and easy to use. Experince entertainment on the go with no PC, wires or hassels.</p>
+        </div>
+    </div>
+
+</section>
+<!-- ------------------------ Product-2 ---------------------------->
+<section id="product-list-2">
+    <div class="container">
+        <div class="product-2-vr">
+            <div class="vr-box">
+                <img src="./assets/images/product-2.jpg" alt="Product-2 VR Box">
+                <div class="product-2-details">
+                    <h6>Oculus Quest</h6>
+                    <p>All in one gaming headset with lightweight, flexible design</p>
+                    <div class="addtocart">
+                        <p><i class="fa-solid fa-dollar-sign"></i> 399</p>
+                        <a href="#"><i class="fa-solid fa-cart-arrow-down"></i>Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="vr-box">
+                <img src="./assets/images/product-2.jpg" alt="Product-2 VR Box">
+                <div class="product-2-details">
+                    <h6>Oculus Quest</h6>
+                    <p>All in one gaming headset with lightweight, flexible design</p>
+                    <div class="addtocart">
+                        <p><i class="fa-solid fa-dollar-sign"></i> 399</p>
+                        <a href="#"><i class="fa-solid fa-cart-arrow-down"></i>Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="vr-box">
+                <img src="./assets/images/product-2.jpg" alt="Product-2 VR Box">
+                <div class="product-2-details">
+                    <h6>Oculus Quest</h6>
+                    <p>All in one gaming headset with lightweight, flexible design</p>
+                    <div class="addtocart">
+                        <p><i class="fa-solid fa-dollar-sign"></i> 399</p>
+                        <a href="#"><i class="fa-solid fa-cart-arrow-down"></i>Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- -------------------------- Content-4 ----------------------- -->
+<section id="content-4">
+    <div class="prime-ambassador">
+        <h2>The prime <br> Ambassador</h2>
+        <p>explore collection</p>
+    </div>
+
+</section>
+<!------------------------------Pricing------------------------------>
+<section id="pricing">
+    <div class="container">
+        <div class="price-plan">
+            <div class="starter-plan">
+                <div class="starter-top row1">
+                    <p>Starter Plan</p>
+                    <p><i class="fa-solid fa-dollar-sign">10</i><br><span>/monthly</span></p>
+                </div>
+                <img src="./assets/images/pricing-5.png " alt="pricing-card-details">
+                <div class="starter-bottom">
+                    <p><i class="fa-solid fa-square-check"></i>2 Accounts</p>
+                    <p><i class="fa-solid fa-square-check"></i>up to 5 GB Space</p>
+                    <p><i class="fa-solid fa-square-check"></i>1 Domain</p>
+                    <p><i class="fa-solid fa-square-check"></i>24/7 Support</p>
+                </div>
+                <button type="button">GET STARTED</button>
+            </div>
+            <div class="starter-plan">
+                <div class="starter-top row1">
+                    <p>Starter Plan</p>
+                    <p><i class="fa-solid fa-dollar-sign">50</i><br><span>/monthly</span></p>
+                </div>
+                <img src="./assets/images/pricing-5.png " alt="pricing-card-details">
+                <div class="starter-bottom">
+                    <p><i class="fa-solid fa-square-check"></i>2 Accounts</p>
+                    <p><i class="fa-solid fa-square-check"></i>up to 5 GB Space</p>
+                    <p><i class="fa-solid fa-square-check"></i>1 Domain</p>
+                    <p><i class="fa-solid fa-square-check"></i>24/7 Support</p>
+                </div>
+                <button type="button">GET STARTED</button>
+            </div>
+            <div class="starter-plan">
+                <div class="starter-top row1">
+                    <p>Starter Plan</p>
+                    <p><i class="fa-solid fa-dollar-sign">90</i><br><span>/monthly</span></p>
+                </div>
+                <img src="./assets/images/pricing-5.png " alt="pricing-card-details">
+                <div class="starter-bottom">
+                    <p><i class="fa-solid fa-square-check"></i>2 Accounts</p>
+                    <p><i class="fa-solid fa-square-check"></i>up to 5 GB Space</p>
+                    <p><i class="fa-solid fa-square-check"></i>1 Domain</p>
+                    <p><i class="fa-solid fa-square-check"></i>24/7 Support</p>
+                </div>
+                <button type="button">GET STARTED</button>
+            </div>
+        </div>
+    </div>
+</section>
+<!------------------------------ Product-3 --------------------------->
+<section id="procuct-list-3">
+    <div class="container">
+        <div class="porduct-3-oculusvr">
+            <div class="p3-top">
+                <p>All-In-One VR</p>
+                <h3>Oculus VR</h3>
+            </div>
+            <img src="./assets/images/product-3.jpg" alt="Product-3 Oculus VR">
+            <div class="p3-thunbs">
+                <img src="./assets/images/thunb-1.jpg" onclick="nxtImg()" class="p3-thunbs-img active" alt="thunb-1">
+                <img src="./assets/images/thunb-2.jpg" onclick="nxtImg()" class="p3-thunbs-img" alt="thunb-2">
+                <img src="./assets/images/thunb-3.jpg" onclick="nxtImg()" class="p3-thunbs-img" alt="thunb-3">
+                <img src="./assets/images/thunb-4.jpg" onclick="nxtImg()" class="p3-thunbs-img" alt="thunb-4">
+                <img src="./assets/images/thunb-5.jpg" onclick="nxtImg()" class="p3-thunbs-img" alt="thunb-5">
+            </div>
+            <div class="p3-bottom row1">
+                <div class="p3-bottom-col1">
+                    <p>All-In-One VR</p>
+                    <h3>Oculus VR</h3>
+                    <p class="p3-bottom-p">Select your Oculus:</p>
+                    <div class="p3-bottom-col1-row">
+                        <img src="./assets/images/product-items-1.jpg" onclick="nxtItems()" class="p3-bottom-img active"alt="product-items-1">
+                        <img src="./assets/images/product-items-2.jpg" onclick="nxtItems()" class="p3-bottom-img" alt="product-items-2">
+                        <img src="./assets/images/product-items-3.jpg" onclick="nxtItems()" class="p3-bottom-img" alt="product-items-3">
+                    </div>
+                    <div class="p3-product-form">
+                        <div class="form-row">
+                            <div>
+                                <label>Select Color: <span id="selectcolor">Grey</span></label>
+                                <div class="color-div">
+                                    <div onclick="itemColor()" class="color c-white color-active"></div>
+                                    <div onclick="itemColor()" class="color c-pink"></div>
+                                    <div onclick="itemColor()" class="color c-grey"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <label for="gb">Memory (GB):</label><br>
+                                <select name="GB" id="gb">
+                                    <option value="32GB">32gb</option>
+                                    <option value="64GB">64gb</option>
+                                    <option value="128GB">128gb</option>
+                                    <option value="256GB">256gb</option>
+                                    <option value="512GB">512gb</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label>Select Quality:</label>
+                                <p class="textarea" id="quantityselect"><i onclick="increaseQuantity()" class="fa-solid fa-minus"></i><span></span><i onclick="increaseQuantity()" class="fa-solid fa-plus"></i></p>
+                            </div> 
+                        </div> 
+                        <div>
+                            <label for="country">Select Shipping Country: +<i class="fa-solid fa-dollar-sign"> 30 USD</i></label><br>
+                            <select name="country" id="country">
+                                <option value="">--Select Country--</option>
+                                <option value="in">India</option>
+                                <option value="us">USA</option>
+                                <option value="paris">Paris</option>
+                                <option value="En">England</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="p3-bottom-col2">
+                    <p>price:</p>
+                    <p><i class="fa-solid fa-dollar-sign"> 149 USD</i> <span><i class="fa-solid fa-dollar-sign"> 179 Usd</i></span></p>
+                    <button class="p3-btn1" type="button"><i class="fa-solid fa-cart-arrow-down"></i>ADD TO CART</button>
+                    <button class="p3-btn2" type="button"><i class="fa-solid fa-cart-shopping"></i>BUY NOW</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!------------------------------ Product-4 --------------------------->
+<section id="product-list-4">
+    <div class="container">
+        <div class="product-4-watch">
+            <div class="p4-card col1">
+                <div class="haritage-detail">
+                    <h4>Haritage 1912</h4>
+                    <p>Minimalistic & Modern</p>
+                    <a href="#">EXPLORE  <i class="fa-solid fa-angle-right"></i></a>
+                </div>
+                <img src="./assets/images/product-4.jpg" alt="Haritage Watch">
+            </div>
+            <div class="p4-card col1">
+                <div class="haritage-detail">
+                    <h4>Haritage 1912</h4>
+                    <p>Minimalistic & Modern</p>
+                    <a href="#">EXPLORE  <i class="fa-solid fa-angle-right"></i></a>
+                </div>
+                <img src="./assets/images/product-4.jpg" alt="Haritage Watch">
+            </div>
+            <div class="p4-card col1">
+                <div class="haritage-detail">
+                    <h4>Haritage 1912</h4>
+                    <p>Minimalistic & Modern</p>
+                    <a href="#">EXPLORE  <i class="fa-solid fa-angle-right"></i></a>
+                </div>
+                <img src="./assets/images/product-4.jpg" alt="Haritage Watch">
+            </div>
+        </div>
+    </div>
+</section>
+<!------------------------------ feedback --------------------------->
+<section id="feedback">
+    <div class="container">
+        <div class="feedback-card">
+            <div class="fb-card">
+                <i class="fa-solid fa-user-group"></i>
+                <h4>300</h4>
+                <p>Happy Clients</p>
+            </div>
+            <div class="fb-card">
+                <i class="fa-solid fa-check"></i>
+                <h4>30</h4>
+                <p>Complete Projects</p>
+            </div>
+            <div class="fb-card">
+                <i class="fa-regular fa-hourglass"></i>
+                <h4>12</h4>
+                <p>Pending Projects</p>
+            </div>
+            <div class="fb-card">
+                <i class="fa-solid fa-mug-hot"></i>
+                <h4>960</h4>
+                <p>Cup Of Tea</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!------------------------------ footer --------------------------->
+<section id="footer">
+    <div class="container">
+        <div class="footer-card1 row1">
+            <div class="fc1-p1">
+                <h4>Get in touch</h4>
+                <p>Be the first to know when new products drop and stay tuned.</p>
+            </div>
+            <div>
+                <form autocomplete="off" action="/">
+                    <label for="email">Enter Your email address</label><br>
+                    <P class="form-email"><i class="fa-solid fa-user"></i><input type="email" id="email" placeholder="user@email.com"><i class="fa-regular fa-paper-plane"></i></P>
+                </form>
+            </div>
+        </div>
+        <div class="footer-card2 r0w-1">
+            <div class="follow-us row1">
+                <p>Follow Us: </p>
+                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <div class="pay-available row1">
+                <p>We Accept: </p>
+                <img src="./assets/images/payment.png" alt="Payment Methods">
+            </div>
+        </div>
+        <div class="footer-card3">
+            <div class="fc3-card1">
+                <h5>Categories</h5>
+                <ul>
+                    <li><a href="#">Outfit</a></li>
+                    <li><a href="#">Sunglassess</a></li>
+                    <li><a href="#">Watches</a></li>
+                    <li><a href="#">Bags</a></li>
+                </ul>
+            </div>
+            <div class="fc3-card1">
+                <h5>Information</h5>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">FAQs Page</a></li>
+                    <li><a href="#">Comming Soon</a></li>
+                    <li><a href="#">404 Page</a></li>
+                </ul>
+            </div>
+            <div class="fc3-card1">
+                <h5>My Account</h5>
+                <ul>
+                    <li><a href="#">Orders</a></li>
+                    <li><a href="#">Downloads</a></li>
+                    <li><a href="#">Addresses</a></li>
+                    <li><a href="#">Account details</a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+            </div>
+            <div class="fc3-card1">
+                <h5>Community</h5>
+                <ul>
+                    <li><a href="#">VR for Good</a></li>
+                    <li><a href="#">Launch Pad</a></li>
+                    <li><a href="#">Creators Lab</a></li>
+                    <li><a href="#">Forums</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-card4">
+            <p>Made with &copy; Kaviarasan <i class="fa-solid fa-heart"></i>. All rights reserved</p>
+        </div>
+    </div>
+</section>
+<!-- bootstrap javascript -->
+<script src="./assets/bootstrap/js/jquery.min.js"></script>
+<script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="./js/app.js"></script>
+</body>
+</html>
