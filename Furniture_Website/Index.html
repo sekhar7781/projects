@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reponsive Furniture Website</title>
+    <!-- Link  to css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Fav icons -->
+    <link rel="shortcut icon" href="img/fav-icon.png" type="image/x-icon">
+</head>
+<body>
+    <!-- scroll top -->
+    <a href="#home" class="scroll-top"><i class='bx bx-up-arrow-alt' ></i></a>
+    <!-- Header -->
+    <header>
+        <div class="nav container">
+            <!-- menu icon -->
+            <div class="menu-icon">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <!-- nav list -->
+            <ul class="navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#popular">Popular</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+            </ul>
+            <!-- Logo -->
+            <a href="#" class="logo">
+                Furn <span>.</span>
+            </a>
+            <!-- nav icons -->
+            <div class="nav-icons">
+                <i class='bx bx-cart-alt' id="cart-icon" ></i>
+                <i class='bx bx-user' id="user-icon"></i>
+            </div>
+            <!-- cart -->
+            <div class="cart">
+                <div class="cart-content">
+                    <!-- box 1 -->
+                    <div class="cart-box">
+                        <img src="img/products1.png" alt="">
+                        <div class="cart-text">
+                            <h3>Soft Furniture</h3>
+                            <span>$150</span>
+                            <span>x1</span>
+                        </div>
+                        <i class="bx bx-trash"></i>
+                    </div>
+                    <!-- box 2 -->
+                    <div class="cart-box">
+                        <img src="img/popular2.png" alt="">
+                        <div class="cart-text">
+                            <h3>Soft Furniture</h3>
+                            <span>$150</span>
+                            <span>x1</span>
+                        </div>
+                        <i class="bx bx-trash"></i>
+                    </div>
+                    <div class="total">
+                        <h3>2 Items</h3>
+                        <span>Total: $300</span>
+                    </div>
+                    <a href="" class="btn">Proceed to Pay</a>
+                </div>
+            </div>
+            <!-- Login form -->
+            <div class="login-form">
+                <form action="">
+                    <h2>Login to Continue</h2>
+                    <input type="email" name="" id="" placeholder="Your Email....." required>
+                    <input type="password" name="" id="" placeholder="password" required>
+                    <a href="#">Forgot Password?</a>
+                    <input type="submit" value="Log In" class="btn">
+                    <a href="#">Create Account</a>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <!-- Home section -->
+    <section class="home container" id="home">
+        <div class="home-text">
+            <h1><span>Modern Furnitures</span><br>For Your Houses</h1>
+            <p>We understand your need for home decor <br>with unique decorative accessories.</p>
+            <a href="#" class="btn">Shop More</a>
+        </div>
+        <!-- Home Image -->
+        <div class="home-img">
+            <img src="img/Sofa.png" alt="">
+        </div>
+    </section>
+    <!-- Home section end -->
+
+    <!-- popular section start -->
+        <section class="popular container" id="popular">
+            <div class="heading">
+                <h2>Popular</h2>
+                <a href="3">See All</a>
+            </div>
+            <!-- popular content -->
+            <div class="popular-content">
+                <!-- box 1 -->
+                <div class="box">
+                    <img src="img/popular1.png" alt="">
+                    <div class="box-text">
+                        <div class="title-price">
+                            <h3>Soft Furniture</h3>
+                            <span>$150</span>
+                        </div>
+                        <a href="#"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+                </div>
+                 <!-- box 2 -->
+                 <div class="box">
+                    <img src="img/popular2.png" alt="">
+                    <div class="box-text">
+                        <div class="title-price">
+                            <h3>Soft Furniture</h3>
+                            <span>$150</span>
+                        </div>
+                        <a href="#"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+                </div>
+                 <!-- box 3 -->
+                 <div class="box">
+                    <img src="img/popular3.png" alt="">
+                    <div class="box-text">
+                        <div class="title-price">
+                            <h3>Soft Furniture</h3>
+                            <span>$150</span>
+                        </div>
+                        <a href="#"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+                </div>
+                 <!-- box 4 -->
+                 <div class="box">
+                    <img src="img/popular4.png" alt="">
+                    <div class="box-text">
+                        <div class="title-price">
+                            <h3>Soft Furniture</h3>
+                            <span>$150</span>
+                        </div>
+                        <a href="#"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- popular section end -->
+
+<!-- about section start -->
+        <section class="about container" id="about">
+            <div class="about-img">
+                <img src="img/about.png" alt="">
+            </div>
+            <!-- about text -->
+            <div class="about-text">
+            <h2>About Us</h2>
+            <p>To discover new furniture design ideas was never to study, browse over 500 products from our top categories</p>
+            <div class="features">
+                <i class='bx bx-checkbox-checked'><span>Free Home Delivery</span></i>
+                <i class='bx bx-checkbox-checked'><span>Easy Returns</span></i>
+                <i class='bx bx-checkbox-checked'><span>Quality Assurance</span></i>
+            </div>
+        </div>
+        </section>
+<!-- about section end -->
+        <!-- products section start -->
+        <section class="products container" id="products">
+            <div class="heading">
+                <h2>Products shop</h2>
+                <a href="#">See All</a>
+            </div>
+      
+        <!-- product content -->
+            <div class="products-content">
+                <!-- box 1 -->
+                <div class="box">
+                    <img src="img/products1.png" alt="">
+                    <div class="box-text">
+                        <div class="title-price">
+                            <h3>Soft Furniture</h3>
+                            <span>$150</span>
+                        </div>
+                        <a href="#"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+                </div>
+                <!-- box 2 -->
+                <div class="box">
+                    <img src="img/products2.png" alt="">
+                    <div class="box-text">
+                        <div class="title-price">
+                            <h3>Soft Furniture</h3>
+                            <span>$150</span>
+                        </div>
+                        <a href="#"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+                </div>
+                <!-- box 3 -->
+                <div class="box">
+                    <img src="img/products3.png" alt="">
+                    <div class="box-text">
+                        <div class="title-price">
+                            <h3>Soft Furniture</h3>
+                            <span>$150</span>
+                        </div>
+                        <a href="#"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+                </div>
+                <!-- box 4 -->
+                <div class="box">
+                    <img src="img/products4.png" alt="">
+                    <div class="box-text">
+                        <div class="title-price">
+                            <h3>Soft Furniture</h3>
+                            <span>$150</span>
+                        </div>
+                        <a href="#"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+                </div>
+                <!-- box 5 -->
+                <div class="box">
+                    <img src="img/products5.png" alt="">
+                    <div class="box-text">
+                        <div class="title-price">
+                            <h3>Soft Furniture</h3>
+                            <span>$150</span>
+                        </div>
+                        <a href="#"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+                </div>
+                <!-- box 6 -->
+                <div class="box">
+                    <img src="img/products6.png" alt="">
+                    <div class="box-text">
+                        <div class="title-price">
+                            <h3>Soft Furniture</h3>
+                            <span>$150</span>
+                        </div>
+                        <a href="#"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+                </div>
+                <!-- box 7 -->
+                <div class="box">
+                    <img src="img/products7.png" alt="">
+                    <div class="box-text">
+                        <div class="title-price">
+                            <h3>Soft Furniture</h3>
+                            <span>$150</span>
+                        </div>
+                        <a href="#"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+                </div>
+                <!-- box 8 -->
+                <div class="box">
+                    <img src="img/products8.png" alt="">
+                    <div class="box-text">
+                        <div class="title-price">
+                            <h3>Soft Furniture</h3>
+                            <span>$150</span>
+                        </div>
+                        <a href="#"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- products sectionEnd -->
+    <!-- news letter section start -->
+        <section class="newsletter">
+            <div class="newsletter-content container">
+                <div class="newsletter-text">
+                    <h2>SIGN UP AND WIN!</h2>
+                    <p>Sign up  and Get a Chance to Win the Giveaway Of the Week</p>
+                </div>
+                <form action="">
+                    <input type="email" name="" id="" placeholder="Enter Your email..." required>
+                    <input type="submit" value="Subscribe" class="btn">
+                </form>
+            </div>
+        </section>
+    <!-- news letter section end -->
+    <!-- footer Start -->
+        <section class="footer container">
+            <div class="footer-box">
+                <h3>The Company</h3>
+                <a href="#">About Us</a>
+                <a href="#">Help</a>
+                <a href="#">Blog</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+            <div class="footer-box">
+                <h3>Popular Categories</h3>
+                <a href="#">Bedroom</a>
+                <a href="#">Living Rooms</a>
+                <a href="#">Outdoor</a>
+                <a href="#">Kitchen</a>
+            </div>
+            <div class="footer-box">
+                <h3>More Information</h3>
+                <a href="#">Shopping</a>
+                <a href="#">Delivery & returns</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Sitemap</a>
+            </div>
+            <div class="footer-box">
+                <h3>Social</h3>
+                    <div class="social">
+                        <a href=""><i class='bx bxl-facebook' ></i></a>
+                        <a href=""><i class='bx bxl-twitter' ></i></a>
+                        <a href=""><i class='bx bxl-instagram' ></i></a>
+                    </div>
+            </div>
+        </section>
+
+    <!-- Footer End -->
+    <!-- Copyright -->
+        <div class="copyright">
+            <p>&#169; Munisekhar All Right Reserved</p>
+        </div>
+    <!-- Link to js -->
+    <script src="main.js"></script>
+</body>
+</html>
